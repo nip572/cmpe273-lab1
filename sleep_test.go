@@ -18,7 +18,7 @@ func Test_sleep(q *testing.T) {
 
 	} else {
 
-		q.Log("Fail")
+		q.Error("Test Failed")
 
 	}
 
